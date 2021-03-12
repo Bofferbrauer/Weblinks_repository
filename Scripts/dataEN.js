@@ -24,5 +24,13 @@ export const articlesArray = [
         paragraph3: "So, without further ado, let's get started!",
     },
     
+    {
+        group: "Password Manager",
+        title: "Password Manager", 
+        paragraph1: "Here I am cheating a bit: We never used a password manager. But since so many programs and websites have been used and all of them require a login, it's vital to have one to avoid having to reuse the same passwords over and over again on all the sites, and having them ready without needing to remember them. Considering that safety should be one of your highest priorities, you should not leave out this step. In fact, I consider this so vital I put it in front of everything, even the text editor in which you would write code! That's how important safe passwords are.",
+        paragraph2: "",
+        paragraph3: "",
+    },
 
+    
 ]
