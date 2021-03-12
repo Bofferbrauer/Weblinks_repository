@@ -103,3 +103,8 @@ span {
     text-align: center;
 }
 
+#JumpTo {
+    display: flex;
+    flex-wrap: wrap;
+}
+
