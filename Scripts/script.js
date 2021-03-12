@@ -1,7 +1,9 @@
+// testing that the script is linked correctly:
 for (let i = 100; i >= 0; i -= 10) {
     console.log(i)
 }
 
+// creating the placeholders
 const app = Vue.createApp({
     data() {
         return {
@@ -15,7 +17,7 @@ const app = Vue.createApp({
 
     methods: {
         async getArticleData() {
-
+            //Fetch the data and convert to JSON
             const res = await fetch("dataEN.js");
             const jsonRes = await res.json();
             const myArticle = jsonRes.results;
@@ -29,6 +31,6 @@ const app = Vue.createApp({
 
     mounted() {
         this.getArticleData();
-    }
+    },
 });
 app.mount("#mainapp")
