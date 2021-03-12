@@ -21,7 +21,7 @@ const articlesArray = [
         paragraph1: "All the tools that we used will be listed here, sorted by category. Some may be downloadable, which will be mentioned if this is the case, but most of them are used online.",
         paragraph2: "Keep in mind we only ever used free or time-limited versions of the programs. So if you never used any of them before, they should all be available for free, even though for some of them just for a free introductionary week or month.",
         paragraph3: "So, without further ado, let's get started!",
-    }
+    },
     
 
 ]

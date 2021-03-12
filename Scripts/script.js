@@ -2,7 +2,7 @@ for (let i = 100; i >= 0; i -= 10) {
     console.log(i)
 }
 
-constapp = Vue.createApp({
+const app = Vue.createApp({
     data() {
         return {
             title: "Title",
@@ -24,7 +24,11 @@ constapp = Vue.createApp({
             this.paragraph1 = myArticle.paragraph1;
             this.paragraph2 = myArticle.paragraph2;
             this.paragraph3 = myArticle.paragraph3;
-        }
+        },
+    },
+
+    mounted() {
+        this.getArticleData();
     }
 });
-applicationCache.mount("#mainapp")
+app.mount("#mainapp")
