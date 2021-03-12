@@ -108,3 +108,11 @@ span {
     flex-wrap: wrap;
 }
 
+#JumpTo li {
+    padding: 10px 20px;
+    border: solid 0px 2px 0px 2px #545863;
+    align-items: center;
+    justify-content: center;
+    text-align: center;
+}
+
