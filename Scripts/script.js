@@ -19,7 +19,7 @@ const app = Vue.createApp({
         async getArticleData() {
             console.log();
             //Fetch the data and convert to JSON
-            const myArticle = articlesArray.map()[];
+            const myArticle = articlesArray.map(0);
 
             this.title = myArticle.title;
             this.paragraph1 = myArticle.paragraph1;
