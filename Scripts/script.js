@@ -20,6 +20,7 @@ const app = Vue.createApp({
             console.log();
             //Fetch the data and convert to JSON
             const myArticle = articlesArray[1];
+            //probably need the .map function, but I don't know how to use it properly
 
             this.title = myArticle.title;
             this.paragraph1 = myArticle.paragraph1;
